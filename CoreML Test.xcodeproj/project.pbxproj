@@ -12,6 +12,7 @@
 		7B243E002173511C0045DB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B243DFE2173511C0045DB22 /* Main.storyboard */; };
 		7B243E022173511D0045DB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B243E012173511D0045DB22 /* Assets.xcassets */; };
 		7B243E052173511D0045DB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B243E032173511D0045DB22 /* LaunchScreen.storyboard */; };
+		7B243E0F21735E020045DB22 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7B243E0E21735E020045DB22 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B243E012173511D0045DB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B243E042173511D0045DB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B243E062173511D0045DB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B243E0E21735E020045DB22 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7B243DFA2173511C0045DB22 /* AppDelegate.swift */,
 				7B243DFC2173511C0045DB22 /* ViewController.swift */,
 				7B243DFE2173511C0045DB22 /* Main.storyboard */,
+				7B243E0E21735E020045DB22 /* Resnet50.mlmodel */,
 				7B243E012173511D0045DB22 /* Assets.xcassets */,
 				7B243E032173511D0045DB22 /* LaunchScreen.storyboard */,
 				7B243E062173511D0045DB22 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B243DFD2173511C0045DB22 /* ViewController.swift in Sources */,
+				7B243E0F21735E020045DB22 /* Resnet50.mlmodel in Sources */,
 				7B243DFB2173511C0045DB22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJX8UJTF8;
 				INFOPLIST_FILE = "CoreML Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJX8UJTF8;
 				INFOPLIST_FILE = "CoreML Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
